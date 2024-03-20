@@ -1,0 +1,9 @@
+git config --global user.email "bandhan15@yahoo.co.uk"
+git config --global user.name "bandhan15"
+touch .gitignore
+echo "virtualEnv" > .gitignore
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/bandhan15/python-learning.git
+git push -u origin master
